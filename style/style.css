@@ -214,3 +214,106 @@ ul li a{
     border-radius: 5px;
     margin-bottom: 150px;
 }
+/* --------------------------------------
+        Mobile Resposive Styles
+-----------------------------------------*/
+@media screen and (max-width:576px) {
+    .container{
+        margin: 0px 40px;
+    }
+    .header-menu, ul {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        align-items: flex-start
+    }
+    .banner-details {
+        width: 100%;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-images img {
+        width: 100%;
+    }
+    .enjoi-features {
+        display: flex;
+        flex-direction: column;
+    }
+    .enjoi-love h2 {
+        font-size: 25px;
+    }
+    .enjoi-love {
+        margin-right: 0px;
+    }
+    .enjoi-features {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ten-years {
+        padding: 0px 30px; 
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .some-facts-detailes {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        width:90%;
+        margin: 10px 0px;
+        
+    }
+    .some-facts-title {
+        width: 100%;
+    }
+    .details-info{
+        width: 100%;
+        text-align: start;
+    }
+    .claint-logo{
+        padding: 30px;
+    }
+    .claint-logo img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container{
+        margin: 0px 100px;
+    }
+    .banner-details {
+        width: 620px;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-images img {
+        width: 100%;
+    }
+    .enjoi-features {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .enjoi-love {
+        margin-right: 0px;
+    }
+    .some-facts-detailes {
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+    .icon {
+        width: 240px;
+        margin: 10px;
+    }
+}
+
+.hide{
+    display: none;
+}
